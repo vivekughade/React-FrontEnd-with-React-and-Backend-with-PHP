@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+body{
+	background:#87CEEB;
+}
+		.topbar{
+			display: flex;
+			background: #FFC300;
+			padding: 35px;
+			font-size: 35px;
+			color: black;
+			opacity: 0.8;
+
+		}
+		.headding{
+			margin-top:-10px;
+			margin-left:10px;
+		}
+
+		.btn{
+			display: flex;
+			float: right;
+			margin-right: 100px;
+			position: relative;
+		
+			
+		}
+		.btn i{
+		background: #FFC300;
+			width: 55px;
+			
+			padding: 20px;
+			border-radius: 200px;
+			margin-top: 10px;
+			transition:1s all;
+			cursor: pointer;
+			color: black;
+				opacity: 0.8;
+
+			
+		}
+		.btn span{
+			position: absolute;
+			right: 40px;
+			width: 100px;
+			top: 25px;
+			color:black;
+			z-index:1;
+			font-weight: bold;
+			cursor: pointer;
+			
+		}
+		.btn:hover i{
+			width: 210px;
+			
+
+		}
+		.note{
+			width: 20%;
+			height: 150px;
+			background: white;
+			margin-top:15px;
+			position:relative;
+			float: left;
+			margin:100px 0px 0px 2%;
+		}
+
+		.note textarea{
+			width: 100%;
+			height: 100%;
+			resize: none;
+			padding:0px;
+			color: blue;
+			font-weight: bold;
+			
+		}
+		.note .fa-edit{
+			position: absolute;
+			right: 40px;
+			top: 10px;
+			font-size: 17px;
+			color: green;
+			cursor: pointer;
+		}
+
+		.note .fa-trash-alt{
+			position: absolute;
+			right: 15px;
+			top: 10px;
+			font-size: 17px;
+			color: red;
+			cursor: pointer;
+			display: inline-block;
+		}
+
+		.main{
+			height: 150px;
+			width:100%;
+			background: yellow;
+			position: absolute;
+			padding: 20px;
+			font-weight: bold;
+			padding-top: 25px;
+			font-size: 14px;
+			overflow: auto;
+			 text-align: justify;
+
+		}
+		.none{
+			display: none;
+		}
+		.block{
+			display: block;
+		}
+        .cnote{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width:100%;
+            align-items: center;
+            margin-top:20px;
+            position: relative;
+           
+        }
+        .cnote input{
+            width: 40%;
+            height: 40px;
+            padding:20px;
+            border:none;
+            outline:none;
+            font-weight: bold;
+            background-color: rgb(252, 236, 18);
+           
+        }
+         .cnote textarea{
+            width:40%;
+            height: 110px;
+          padding:20px;
+            border:none;
+            outline:none;
+             font-weight: bold;
+			 text-align: justify;
+			 
+     
+        }
+        .mbtn{
+          height: 50px;
+          width: 50px;
+          background-color: red;
+          border:1px solid red;
+		  border-radius: 50%;
+        }
